@@ -1,0 +1,58 @@
+/* 
+/* header */
+/* 
+header{
+  background-color: rgb(62, 64, 63);
+  color:white;
+}
+header>section{
+  margin-left:100px; */
+
+/* } */
+
+header>nav>ul>li{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0 auto;
+  font-size: 20px;
+}
+.navi{
+  padding-left:100px
+}
+a{
+  color:lightgray;
+}
+body{
+  text-align:center;
+  width: 90%;
+  margin: 0 auto;
+}
+main{
+  overflow: auto;
+}
+#hero{
+  display:relative;
+  padding-bottom:20px;
+}
+
+nav, main, footer{
+  margin: 1%;
+}
+.banner1, .banner2, .banner3{
+  display: inline-block;
+  margin-top:10px;
+  padding: 20px;
+}
+.banner3{
+  margin-right:1%;
+}
+li{
+  display:inline;
+  padding: 0.5em;
+}
+nav,footer{
+  background-color: rgb(62, 64, 63);
+  width: 100%;
+}
+
