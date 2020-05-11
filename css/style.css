@@ -41,6 +41,7 @@ nav, main, footer{
 }
 .banner1, .banner2, .banner3{
   display: inline-block;
+  width: 300px;
   margin-top:10px;
   padding: 20px;
 }
@@ -53,6 +54,47 @@ li{
 }
 nav,footer{
   background-color: rgb(62, 64, 63);
-  width: 100%;
+  
+}
+footer{
+  height: 100px;
+  width: 1800px;
 }
 
+.featured{
+  width:480px;
+  margin-left: 335px;
+}
+.featuredText{
+  width: 480px;
+  float:right;
+  text-align: left;
+  margin-top: -375px;
+  margin-right: 350px;
+  margin-bottom: 5px;
+}
+
+#textHead{
+  padding-bottom:20px;
+  font-size: 20pt;
+}
+#textText{
+  font-size: 15pt;
+  height: 300px;
+  line-height: 30px;
+  overflow: scroll;
+}
+
+div{  
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 14px 25px;
+  list-style-type: none;
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover, a:active {
+  background-color: white;
